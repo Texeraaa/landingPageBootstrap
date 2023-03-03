@@ -1,0 +1,113 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    background-color: #FFFFFF;
+}
+.navbar-toggler{
+    border: none;
+}
+.nav-btn{
+    color: #FFFFFF;
+    background-color: #000000;
+}
+.nav-btn:hover{
+    background-color: none;
+    border: 1px solid #000000;
+    color: #000000;
+}
+.btn-novidades:hover{
+    border: 2px solid #000000;
+}
+.img_tenis-esquerda{
+    width: 200px;
+    transform: rotate(23deg);
+    right: 46%;
+    top: -28px;
+}
+.img_tenis-direita{
+    transform: rotate(-23deg);
+    width: 200px;
+    left: 40%;
+    top: 27px;
+}
+.area-tenis{
+    width: 100vw;
+    height: 30vh;
+}
+.tenis-lg{
+    height: 20vh;
+}
+.card--label{
+    left: 25px;
+    top: 20px;
+}
+.card--label-baixo{
+    right: 26px;
+    bottom: 20px;
+}
+.color-gray{
+    color: #C4C4C4;
+}
+.fs-08{
+    font-size: 0.8rem;
+}
+.fs-2-5{
+    font-size: 2.5rem;
+}
+.fs-3-75{
+    font-size: 3.75rem;
+}
+.img-r{
+    width: 50%;
+}
+.horizontal-scrollable {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.horizontal-scrollable::-webkit-scrollbar{
+    width: 2px;
+    height: 8px;
+    background-color: #aaa;
+}.horizontal-scrollable::-webkit-scrollbar-thumb{
+    border-radius: 1rem;
+    background: #000000;
+}
+@media screen and (min-width: 576px){  
+    .img_tenis-esquerda{
+        width: 249px;
+        transform: rotate(23deg);
+        right: 40%;
+        top: -25px;
+    }
+    .img_tenis-direita{
+        transform: rotate(-23deg);
+        width: 186px;
+        left: 55%;
+        top: -21px;
+    }
+}
+@media screen and (min-width: 768px){
+    
+    .img_tenis-esquerda{
+        width: 386px;
+        transform: rotate(23deg);
+        right: 45%;
+        top: -11px;
+    }
+    .img_tenis-direita{
+        transform: rotate(-23deg);
+        width: 305px;
+        left: 50%;
+        top: -12px;
+    }
+}
+@media screen and (min-width: 992px) {
+    .img-r{
+        width: 23%;
+    }
+}
+@media screen and (min-width: 1400px) {
+    .tenis-lg{
+        height: 30vh;
+    }
+}
